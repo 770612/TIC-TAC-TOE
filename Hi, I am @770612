@@ -1,0 +1,26 @@
+HTML
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <span class="game-title" id="message">The player X</span>
+<div class="game">
+  <div class="game-item" data-cell="1"></div>
+  <div class="game-item" data-cell="2"></div>
+  <div class="game-item" data-cell="3"></div>
+  <div class="game-item" data-cell="4"></div>
+  <div class="game-item" data-cell="5"></div>
+  <div class="game-item" data-cell="6"></div>
+  <div class="game-item" data-cell="7"></div>
+  <div class="game-item" data-cell="8"></div>
+  <div class="game-item" data-cell="9"></div>
+</div>
+<button id="reset-game">Clear</button> 
+  </body>
+</html>
